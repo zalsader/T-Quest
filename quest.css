@@ -1,0 +1,92 @@
+#bigT .picture{
+    display: none;
+    width: 600px;
+    height: 600px;
+    background: url(TQuest-01.svg);
+    background-size:  600px 600px;
+}
+#T2, #T2 .picture {
+    display: block;
+    width: 317.3px;
+    height: 200px;
+    }
+#T2 .picture {
+    background: url(TQuest-02.svg);
+    background-size: auto 200px;
+}
+#T3, #T3 .picture {
+    display: block;
+    width: 565.8px;
+    height: 200px;
+    }
+#T3 .picture {
+    background: url(TQuest-03.svg);
+    background-size: 565.8px 200px;
+}
+#T4, #T4 .picture {
+    display: block;
+    width: 200px;
+    height: 200px;
+    }
+#T4 .picture {
+    background: url(TQuest-04.svg);
+    background-size: 200px 200px;
+}
+#T5, #T5 .picture {
+    display: block;
+    width: 200px;
+    height: 400.1px;
+    }
+#T5 .picture {
+    background: url(TQuest-05.svg);
+    background-size: 200px 400.1px;
+}
+            
+.Ts.ui-draggable-dragging {
+        transition: 0s;
+        -moz-transition: 0s;
+        -webkit-transition: 0s;
+        -ms-transition: 0s;
+        -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
+        filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.2));
+}
+            
+.Ts {
+        transition: 0.6s;
+        -moz-transition: 0.6s;
+        -webkit-transition: 0.6s;
+        -ms-transition: 0.6s;
+	    transform-style: preserve-3d;
+                    
+        position: absolute;
+}
+.rotate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(refresh-01.svg);
+    background-size:  50px 50px;
+    transform: translate(-50%, -50%);
+}
+#T4 .rotate{
+    top: 66%;
+    left: 33%;
+}
+#T2 .rotate{
+    top: 50%;
+    left: 66%;
+}
+#T5 .rotate{
+    top: 66%;
+    left: 50%;
+}
+#playGround {
+    position:  absolute;
+    top:  0px;
+    left:  0px;
+    width:  100%;
+    height:  100%;
+}
